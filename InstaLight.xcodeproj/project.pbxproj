@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37726BCB14594158008CCCBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37726BCA14594158008CCCBB /* UIKit.framework */; };
+		37726BCD14594158008CCCBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37726BCC14594158008CCCBB /* Foundation.framework */; };
+		37726BD514594158008CCCBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37726BD314594158008CCCBB /* InfoPlist.strings */; };
+		37726BE214594190008CCCBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37726BE114594190008CCCBB /* main.m */; };
+		37726BFF14594376008CCCBB /* InstaLightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37726BFA14594376008CCCBB /* InstaLightAppDelegate.m */; };
+		37726C0014594376008CCCBB /* TorchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37726BFC14594376008CCCBB /* TorchView.m */; };
+		37726C0114594376008CCCBB /* TorchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37726BFE14594376008CCCBB /* TorchViewController.m */; };
+		37726C031459449E008CCCBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37726C021459449E008CCCBB /* AVFoundation.framework */; };
+		3795AF041467E94D00F0CFD5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF021467E94D00F0CFD5 /* Icon.png */; };
+		3795AF051467E94D00F0CFD5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF031467E94D00F0CFD5 /* Icon@2x.png */; };
+		3795AF081467EB6200F0CFD5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF071467EB6200F0CFD5 /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37726BC614594158008CCCBB /* InstaLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37726BCA14594158008CCCBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37726BCC14594158008CCCBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37726BD214594158008CCCBB /* InstaLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaLight-Info.plist"; sourceTree = "<group>"; };
+		37726BD414594158008CCCBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37726BD814594159008CCCBB /* InstaLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaLight-Prefix.pch"; sourceTree = "<group>"; };
+		37726BE114594190008CCCBB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37726BF914594376008CCCBB /* InstaLightAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaLightAppDelegate.h; sourceTree = "<group>"; };
+		37726BFA14594376008CCCBB /* InstaLightAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaLightAppDelegate.m; sourceTree = "<group>"; };
+		37726BFB14594376008CCCBB /* TorchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchView.h; sourceTree = "<group>"; };
+		37726BFC14594376008CCCBB /* TorchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchView.m; sourceTree = "<group>"; };
+		37726BFD14594376008CCCBB /* TorchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorchViewController.h; sourceTree = "<group>"; };
+		37726BFE14594376008CCCBB /* TorchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorchViewController.m; sourceTree = "<group>"; };
+		37726C021459449E008CCCBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3795AF021467E94D00F0CFD5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3795AF031467E94D00F0CFD5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		3795AF071467EB6200F0CFD5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37726BC314594158008CCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37726BCB14594158008CCCBB /* UIKit.framework in Frameworks */,
+				37726BCD14594158008CCCBB /* Foundation.framework in Frameworks */,
+				37726C031459449E008CCCBB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37726BBB14594158008CCCBB = {
+			isa = PBXGroup;
+			children = (
+				37726BD014594158008CCCBB /* InstaLight */,
+				37726BC914594158008CCCBB /* Frameworks */,
+				37726BC714594158008CCCBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37726BC714594158008CCCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37726BC614594158008CCCBB /* InstaLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37726BC914594158008CCCBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37726C021459449E008CCCBB /* AVFoundation.framework */,
+				37726BCA14594158008CCCBB /* UIKit.framework */,
+				37726BCC14594158008CCCBB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37726BD014594158008CCCBB /* InstaLight */ = {
+			isa = PBXGroup;
+			children = (
+				37726BF914594376008CCCBB /* InstaLightAppDelegate.h */,
+				37726BFA14594376008CCCBB /* InstaLightAppDelegate.m */,
+				37726BFB14594376008CCCBB /* TorchView.h */,
+				37726BFC14594376008CCCBB /* TorchView.m */,
+				37726BFD14594376008CCCBB /* TorchViewController.h */,
+				37726BFE14594376008CCCBB /* TorchViewController.m */,
+				37726BD114594158008CCCBB /* Supporting Files */,
+			);
+			path = InstaLight;
+			sourceTree = "<group>";
+		};
+		37726BD114594158008CCCBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3795AF071467EB6200F0CFD5 /* Entitlements.plist */,
+				3795AF021467E94D00F0CFD5 /* Icon.png */,
+				3795AF031467E94D00F0CFD5 /* Icon@2x.png */,
+				37726BD214594158008CCCBB /* InstaLight-Info.plist */,
+				37726BD314594158008CCCBB /* InfoPlist.strings */,
+				37726BD814594159008CCCBB /* InstaLight-Prefix.pch */,
+				37726BE114594190008CCCBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37726BC514594158008CCCBB /* NorthernLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37726BDE14594159008CCCBB /* Build configuration list for PBXNativeTarget "NorthernLight" */;
+			buildPhases = (
+				37726BC214594158008CCCBB /* Sources */,
+				37726BC314594158008CCCBB /* Frameworks */,
+				37726BC414594158008CCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorthernLight;
+			productName = InstaLight;
+			productReference = 37726BC614594158008CCCBB /* InstaLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37726BBD14594158008CCCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 37726BC014594158008CCCBB /* Build configuration list for PBXProject "InstaLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37726BBB14594158008CCCBB;
+			productRefGroup = 37726BC714594158008CCCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37726BC514594158008CCCBB /* NorthernLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37726BC414594158008CCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37726BD514594158008CCCBB /* InfoPlist.strings in Resources */,
+				3795AF041467E94D00F0CFD5 /* Icon.png in Resources */,
+				3795AF051467E94D00F0CFD5 /* Icon@2x.png in Resources */,
+				3795AF081467EB6200F0CFD5 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37726BC214594158008CCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37726BE214594190008CCCBB /* main.m in Sources */,
+				37726BFF14594376008CCCBB /* InstaLightAppDelegate.m in Sources */,
+				37726C0014594376008CCCBB /* TorchView.m in Sources */,
+				37726C0114594376008CCCBB /* TorchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37726BD314594158008CCCBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37726BD414594158008CCCBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37726BDC14594159008CCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = InstaLight;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37726BDD14594159008CCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = InstaLight;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37726BDF14594159008CCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaLight/InstaLight-Prefix.pch";
+				INFOPLIST_FILE = "InstaLight/InstaLight-Info.plist";
+				PRODUCT_NAME = InstaLight;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37726BE014594159008CCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaLight/InstaLight-Prefix.pch";
+				INFOPLIST_FILE = "InstaLight/InstaLight-Info.plist";
+				PRODUCT_NAME = InstaLight;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3795AF091467EC9000F0CFD5 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = InstaLight/Entitlements.plist;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = InstaLight/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = InstaLight;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		3795AF0A1467EC9000F0CFD5 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaLight/InstaLight-Prefix.pch";
+				INFOPLIST_FILE = "InstaLight/InstaLight-Info.plist";
+				PRODUCT_NAME = InstaLight;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37726BC014594158008CCCBB /* Build configuration list for PBXProject "InstaLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37726BDC14594159008CCCBB /* Debug */,
+				37726BDD14594159008CCCBB /* Release */,
+				3795AF091467EC9000F0CFD5 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37726BDE14594159008CCCBB /* Build configuration list for PBXNativeTarget "NorthernLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37726BDF14594159008CCCBB /* Debug */,
+				37726BE014594159008CCCBB /* Release */,
+				3795AF0A1467EC9000F0CFD5 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37726BBD14594158008CCCBB /* Project object */;
+}
