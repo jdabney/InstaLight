@@ -4,7 +4,7 @@
 //
 //  Created by Jeremiah Dabney on 10/26/11.
 //  Copyright 2011 Jeremiah Dabney. All rights reserved.
-//	BSD License
+//  BSD License
 //
 
 #import "TorchView.h"
