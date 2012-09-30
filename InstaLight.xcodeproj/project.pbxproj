@@ -18,6 +18,7 @@
 		3795AF041467E94D00F0CFD5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF021467E94D00F0CFD5 /* Icon.png */; };
 		3795AF051467E94D00F0CFD5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF031467E94D00F0CFD5 /* Icon@2x.png */; };
 		3795AF081467EB6200F0CFD5 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3795AF071467EB6200F0CFD5 /* Entitlements.plist */; };
+		37F894B41617E81C009A1E6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37F894B31617E81C009A1E6B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3795AF021467E94D00F0CFD5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3795AF031467E94D00F0CFD5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		3795AF071467EB6200F0CFD5 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		37F894B31617E81C009A1E6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3795AF021467E94D00F0CFD5 /* Icon.png */,
 				3795AF031467E94D00F0CFD5 /* Icon@2x.png */,
 				37726BD214594158008CCCBB /* InstaLight-Info.plist */,
+				37F894B31617E81C009A1E6B /* Default-568h@2x.png */,
 				37726BD314594158008CCCBB /* InfoPlist.strings */,
 				37726BD814594159008CCCBB /* InstaLight-Prefix.pch */,
 				37726BE114594190008CCCBB /* main.m */,
@@ -135,7 +138,7 @@
 		37726BBD14594158008CCCBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 37726BC014594158008CCCBB /* Build configuration list for PBXProject "InstaLight" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -163,6 +166,7 @@
 				3795AF041467E94D00F0CFD5 /* Icon.png in Resources */,
 				3795AF051467E94D00F0CFD5 /* Icon@2x.png in Resources */,
 				3795AF081467EB6200F0CFD5 /* Entitlements.plist in Resources */,
+				37F894B41617E81C009A1E6B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

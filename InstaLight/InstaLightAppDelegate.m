@@ -37,8 +37,7 @@
 	// Hide the navigation controller
 	[navigationController setNavigationBarHidden:YES];
 
-	// Add the navigation controller as a subview of our window
-	[window addSubview:[navigationController view]];
+	[self.window setRootViewController:[navigationController visibleViewController]];
 	[window makeKeyAndVisible];
 
 	return YES;
